@@ -1,0 +1,140 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #d9e5e5;
+  /* position: absolute; */
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-name {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.superheroes-logo {
+  position: relative;
+  height: 400px;
+}
+
+.add-btn {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  left: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.edit-superhero-block {
+  margin: 0px 30px 0 0;
+}
+
+.delete-superhero-block {
+  margin: 0px 30px 0 0;
+}
+
+.delete-superhero-btn {
+
+}
+
+.open-modal {
+  padding: 10px;
+}
+
+.input-block {
+  position: relative;
+  top: 10%;
+  left: 20%;
+}
+
+.add-superhero-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-superhero-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-superhero-modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-block {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.modal-name {
+  display: flex;
+  justify-content: center;
+}
+
+.input-data {
+  padding: 10px;
+  margin: 0 0 10px 0;
+}
+
+.modal-btn {
+  padding: 10px;
+}
+
+.superheroes-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10%;
+}
+
+.superhero-block {
+  background: lightgoldenrodyellow;
+  display: flex;
+  border: #fffff3;
+  border-style: groove;
+  margin: 10px 0 0 0;
+}
+
+.superhero-image {
+  display: flex;
+  width: 400px;
+}
+
+.superhero-information {
+  width: 100%;
+
+}
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
